@@ -7,4 +7,7 @@ resource "aws_s3_bucket" "default" {
       }
     }
   }
+  tags = {
+    yor_trace = "99b3d496-3c0e-4d1c-90ab-e1139b35f376"
+  }
 }
